@@ -1,0 +1,115 @@
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1535px;
+    height: 742.4124px;
+}
+
+#max {
+    width: 900px;
+    height: 500px;
+    align-items: center;
+    margin: 7% 18%;
+    margin-top: 7%;
+
+}
+
+.re {
+    position: relative;
+    height: 400px;
+}
+
+.re ul {
+    list-style-type: none;
+
+}
+
+.re ul>li {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+
+
+    transition: 1s;
+    opacity: 0;
+}
+
+.re ul>li img {
+    width: 900px;
+    height: 500px;
+    border-radius: 10%;
+    border: 15px solid #0ce6af;
+
+
+}
+
+#max ol {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 75px);
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    gap: 1em;
+    float: right;
+    margin-top: 450px;
+    list-style: none;
+    top: 0;
+    left: 0;
+}
+
+#max ol li {
+    width: 25px;
+    height: 10px;
+    font-size: 15px;
+    line-height: 50px;
+    float: left;
+    text-align: left;
+    border-radius: 2em;
+    border: 5px solid #999999;
+    margin-top: 38px;
+}
+
+#title {
+    z-index: 1;
+}
+
+#rjdz {
+    position: absolute;
+    border-radius: 30px;
+    border: 5px solid #999999;
+    font-family: cursive;
+    left: 80px;
+    top: 460px;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    background-color: rgb(23, 239, 11);
+    cursor: pointer;
+}
+
+#rjdz:hover {
+    font-size: 41px;
+    border: 6px solid #999999;
+}
+
+#wjdz {
+    position: absolute;
+    border-radius: 30px;
+    border: 5px solid #999999;
+    font-family: cursive;
+    left: 80px;
+    top: 560px;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#wjdz:hover {
+    font-size: 41px;
+    border: 6px solid #999999;
+}

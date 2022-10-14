@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人机对战</title>
+    <link rel="icon" , href="/image/back.jfif">
+    <link rel="stylesheet" href="/css/人机对战.css">
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="/audio/周杰伦 - 粉色海洋.flac">
+
+    </audio>
+    <div class="dice" onclick="yaotouzi()">摇骰
+        <img class="touzi" src="" id="touziId">
+    </div>
+    <div class="title">人机对战 </div>
+    <div class="playerA">玩家得分:
+        <span id="L_socre">0</span>
+    </div>
+    <div class="playerB">电脑得分:
+        <span id="R_socre">0</span>
+    </div>
+    <div id="winner">获胜方:
+        <div id="winner_"></div>
+    </div>
+    <div class="board">
+        <ul class="LeftBoard" id="LeftBoard">
+            <li class="l1" onclick="putdice('L1-1')"><img width="135" src="/image/0.png" id="L1-1"></li>
+            <li class="l1" onclick="putdice('L1-2')"><img width="135" src="/image/0.png" id="L1-2"></li>
+            <li class="l1" onclick="putdice('L1-3')"><img width="135" src="/image/0.png" id="L1-3"></li>
+            <li class="l2" onclick="putdice('L2-1')"><img width="135" src="/image/0.png" id="L2-1"></li>
+            <li class="l2" onclick="putdice('L2-2')"><img width="135" src="/image/0.png" id="L2-2"></li>
+            <li class="l2" onclick="putdice('L2-3')"><img width="135" src="/image/0.png" id="L2-3"></li>
+            <li class="l3" onclick="putdice('L3-1')"><img width="135" src="/image/0.png" id="L3-1"></li>
+            <li class="l3" onclick="putdice('L3-2')"><img width="135" src="/image/0.png" id="L3-2"></li>
+            <li class="l3" onclick="putdice('L3-3')"><img width="135" src="/image/0.png" id="L3-3"></li>
+        </ul>
+
+        <ul class="RightBoard" id="RightBoard">
+            <li class="r1" onclick="putdice('R1-1')"><img width="135" src="/image/0.png" id="R1-1"></li>
+            <li class="r1" onclick="putdice('R1-2')"><img width="135" src="/image/0.png" id="R1-2"></li>
+            <li class="r1" onclick="putdice('R1-3')"><img width="135" src="/image/0.png" id="R1-3"></li>
+            <li class="r2" onclick="putdice('R2-1')"><img width="135" src="/image/0.png" id="R2-1"></li>
+            <li class="r2" onclick="putdice('R2-2')"><img width="135" src="/image/0.png" id="R2-2"></li>
+            <li class="r2" onclick="putdice('R2-3')"><img width="135" src="/image/0.png" id="R2-3"></li>
+            <li class="r3" onclick="putdice('R3-1')"><img width="135" src="/image/0.png" id="R3-1"></li>
+            <li class="r3" onclick="putdice('R3-2')"><img width="135" src="/image/0.png" id="R3-2"></li>
+            <li class="r3" onclick="putdice('R3-3')"><img width="135" src="/image/0.png" id="R3-3"></li>
+
+        </ul>
+
+    </div>
+    <div id="lobby" onclick="window.location.href='index.html'">返回首页</div>
+    <div id="again" onclick="window.location.href='人机对战.html'">再来一局</div>
+
+
+
+    <script src="/js/人机对战.js"></script>
+</body>
+
+</html>
